@@ -73,4 +73,8 @@ The ProblemDetail class is often used in combination with the Spring Boot Actuat
 
 Overall, the ProblemDetail class is a useful tool for monitoring and managing errors in your application with Spring Boot Actuator, providing a way to store and access data about problems or errors that have occurred in your application.
 
-## 
+## httpExchange annotations
+
+@HttpExchange is an annotation that is used to annotate a method in a Spring Boot application that handles an HTTP exchange. An HTTP exchange is a request made by a client to a server, along with the corresponding response from the server.
+
+The @HttpExchange annotation can be used to annotate a method that handles an HTTP exchange in a Spring Boot application. The method should have a signature that includes an HttpExchange object as an argument. This object represents the HTTP exchange and provides access to the request and response, as well as other information about the exchange.
